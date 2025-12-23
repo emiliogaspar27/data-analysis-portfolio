@@ -47,9 +47,6 @@ Análise de dados temporais com ênfase em identificação de tendências, sazon
 ### Financial Data Analysis  
 Análise descritiva de dados financeiros e despesas, gerando insights estruturados.
 
-### Text Analysis (NLP)  
-Introdução à análise de dados textuais utilizando técnicas básicas de **Natural Language Processing**.
-
 ---
 
 ## Estrutura dos Projetos
