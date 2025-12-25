@@ -1,39 +1,35 @@
-# Análise de Dados – Sample Superstore 🏬
+# Análise de Dados – Alcohol Sales 🍷
 ---
 
 ## Visão Geral do Projeto
-Este projeto consiste em uma **Análise Exploratória de Dados (EDA)** sobre o desempenho comercial de uma loja, com o objetivo de compreender os principais fatores que influenciam vendas, lucros e padrões de compra.
+Este projeto consiste em uma **Análise Exploratória de Dados (EDA)** sobre as vendas mensais de álcool, com o objetivo de compreender os principais fatores que influenciam o volume de vendas, padrões sazonais e tendências ao longo do tempo.
 
 A análise explora relações entre:  
-- **Vendas e lucros (`Sales` e `Profit`)**  
-- **Produtos e categorias**  
-- **Clientes e segmentos**  
-- **Regiões e cidades**  
-- **Descontos e modos de envio**  
+- **Vendas ao longo do tempo (`S4248SM144NCEN`)**  
+- **Tendências anuais e médias mensais**  
+- **Padrões sazonais e picos de vendas por mês**  
+- **Períodos de crescimento, estabilidade e quedas abruptas**  
 
 O projeto foi desenvolvido como um **projeto de portfólio**, seguindo práticas comuns utilizadas por analistas de dados em contextos reais.
 
 ---
 
 ## Objetivos
-- Explorar a estrutura e qualidade do dataset de vendas  
-- Calcular estatísticas descritivas (médias, totais e distribuições)  
-- Identificar padrões de compra e relações entre produtos, clientes e regiões  
-- Gerar insights claros que apoiem decisões estratégicas de negócio  
+- Explorar a estrutura e qualidade do dataset de vendas de álcool  
+- Calcular estatísticas descritivas (médias, totais, máximos, mínimos e variabilidade)  
+- Identificar padrões sazonais e tendências de longo prazo  
+- Detectar picos, quedas abruptas e valores atípicos  
+- Gerar insights claros que apoiem decisões estratégicas ou análises de mercado  
 
 ---
 
 ## Dataset
-- **Fonte:** Kaggle (Sample Superstore)  
+- **Fonte:** Kaggle (Alcohol_Sales)  
 - **Formato:** CSV  
 - **Descrição:**  
-  O dataset contém informações sobre vendas, incluindo:  
-  - Identificador do pedido e linhas do pedido (`Row ID`, `Order ID`)  
-  - Datas de pedido e envio (`Order Date`, `Ship Date`)  
-  - Logística de envio (`Ship Mode`)  
-  - Informações de clientes (`Customer ID`, `Customer Name`, `Segment`, `Country`, `City`, `State`, `Postal Code`, `Region`)  
-  - Detalhes dos produtos (`Product ID`, `Category`, `Sub-Category`, `Product Name`)  
-  - Métricas de negócio (`Sales`, `Quantity`, `Discount`, `Profit`)  
+  O dataset contém informações mensais sobre vendas de álcool nos EUA, incluindo:  
+  - Data da venda (`DATE`)  
+  - Valor das vendas mensais (`S4248SM144NCEN`)  
 
 > O dataset está incluído no repositório para garantir **transparência e reprodutibilidade** da análise.
 
@@ -43,19 +39,19 @@ O projeto foi desenvolvido como um **projeto de portfólio**, seguindo práticas
 - **Python**  
   - **Pandas** – manipulação e análise de dados  
 - **Jupyter Notebook** – análise exploratória, visualizações e documentação  
-- **Microsoft Word** – relatórios finais e comparação de métricas  
+- **Microsoft Excel** – relatórios finais e resumo de insights  
 - **Git & GitHub** – controle de versão e compartilhamento do projeto  
 
 ---
 
 ## Principais Análises Realizadas
-- Estatísticas descritivas de vendas, lucros e descontos  
-- Identificação de produtos e categorias mais lucrativos  
-- Comparação de desempenho entre segmentos de clientes e regiões  
-- Análise de impacto de descontos sobre vendas e rentabilidade  
-- Avaliação de modos de envio e eficiência logística  
+- Estatísticas descritivas de vendas (média, mínimo, máximo e variabilidade)  
+- Identificação de **tendências de crescimento ou queda** ao longo dos anos  
+- Análise de **padrões sazonais e picos recorrentes de vendas por mês**  
+- Identificação de **períodos de estabilidade, crescimento ou quedas abruptas**  
+- Detecção de **valores atípicos e meses críticos** que fogem do padrão histórico  
 
 ---
 
 ## Conclusões
-A análise evidencia que fatores como **categoria de produto**, **segmento de cliente**, **região** e **níveis de desconto** influenciam significativamente as vendas e lucros. Esses resultados podem apoiar gestores e equipes comerciais na definição de **estratégias de precificação, promoções e logística**, visando maximizar a rentabilidade do negócio.
+A análise evidencia que fatores como **tendências de longo prazo**, **sazonalidade de meses específicos** e **valores atípicos em determinados períodos** influenciam significativamente as vendas de álcool. Esses resultados podem apoiar gestores, analistas de mercado ou equipes comerciais na definição de **estratégias de estoque, promoções e previsão de demanda**, visando maximizar a eficiência e o planejamento de vendas.
