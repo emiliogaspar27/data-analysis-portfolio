@@ -39,7 +39,7 @@ O projeto foi desenvolvido como um **projeto de portfólio**, seguindo práticas
 - **Python**  
   - **Pandas** – manipulação e análise de dados  
 - **Jupyter Notebook** – análise exploratória, visualizações e documentação  
-- **Microsoft Excel** – relatórios finais e resumo de insights  
+- **Microsoft Word (DOCX)** – relatório interpretativo (Pergunta → Resposta)  
 - **Git & GitHub** – controle de versão e compartilhamento do projeto  
 
 ---
