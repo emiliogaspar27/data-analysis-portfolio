@@ -19,8 +19,7 @@ Este repositório foi criado para:
 
 ## Ferramentas & Tecnologias
 
-- Python  
-- Pandas  
+- Python (Pandas, Matplotlib)
 - Excel  
 - Jupyter Notebook  
 - Git & GitHub  
