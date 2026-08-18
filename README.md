@@ -1,9 +1,11 @@
-# Data Analysis Portfolio
+# Portfólio de Análise de Dados
 
-Olá, eu sou **Emílio Gaspar**, um **Data Science Enthusiast** atualmente focado em **Data Analysis**.  
-Este repositório contém projetos práticos desenvolvidos com **datasets** reais, refletindo meu processo contínuo de aprendizado e experiência prática com dados.
+Sou **Emílio Gaspar**, **Técnico Médio de Informática** com foco em **Análise de Dados**.
 
-O trabalho apresentado aqui enfatiza **exploração, análise, visualização de dados** e o desenvolvimento de pensamento analítico utilizando Python e ferramentas relacionadas.
+Este repositório reúne projetos práticos desenvolvidos com **Python, Pandas, Excel, Power Query e Jupyter Notebook**, abrangendo análise exploratória, estatística, visualização de dados, vendas, finanças, desempenho escolar e séries temporais.
+
+Os projetos representam minha evolução prática na aplicação de ferramentas de dados e no desenvolvimento de **pensamento analítico para resolver problemas através de dados**.
+
 
 ---
 
